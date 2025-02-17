@@ -1,5 +1,5 @@
 var array = [11,12,13,14];
-var [x,y] = [array];
+var [x,y] = [array]; //x=11; y=22;
 console.log("x=",x);
 console.log("y=",y);
 
@@ -20,5 +20,5 @@ console.log(person.age);
 
 const { name, city }= person;
 console.log(name);
-console.log(age);
+// console.log(age);
 console.log(city);
