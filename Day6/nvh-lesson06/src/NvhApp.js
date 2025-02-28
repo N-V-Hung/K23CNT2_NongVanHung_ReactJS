@@ -21,7 +21,7 @@ export default class NvhApp extends Component {
         <hr/>
         <NvhEventForm4 />
         <hr/>
-        <NvhEventForm5 />
+        <NvhEventForm5 onnvhHandleSubmit={this.nvhHandleSubmitForm}/>
       </div>
       
     )
