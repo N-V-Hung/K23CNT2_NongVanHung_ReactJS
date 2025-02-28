@@ -11,7 +11,10 @@ export default class NVHClassCompEventPostData extends Component {
     render() {
     return (
       <div className='alert alert-success'>
-        <button className='btn btn-primery' onClick={this.nvhEventHandleClick1}>Button 1 -Chuyển dữ liệu lên App</button>
+        <button className='btn btn-primery' 
+            onClick={this.nvhEventHandleClick1}>
+                Button 1 -Chuyển dữ liệu lên App
+        </button>
 
       </div>
     )
