@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import NvhLoginControl from './components/NvhLoginControl'
 import NvhRenderList from './components/NvhRenderList'
 import NvhRenderListStudent from './components/NvhRenderListStudent'
-
+import NvhProduct from './components/NvhProduct'
 
 export default class NvhApp extends Component {
   render() {
@@ -15,6 +15,8 @@ export default class NvhApp extends Component {
         <NvhRenderList />
 
         <NvhRenderListStudent />
+
+        <NvhProduct />
       </div>
     )
   }
