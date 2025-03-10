@@ -12,11 +12,11 @@ export default function NvhRenderList() {
     <div className='alert alert-success'>
       <h2>Danh sách:</h2>
       <ul>
-      {
-                nvhList.map(item=>{
-                    return <li>{item}</li>
-                })
-            }
+        {
+            nvhList.map(item=>{
+            return <li>{item}</li>
+            })
+        }
       </ul>
       {nvhElment}
     </div>
